@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="204" height="28" viewBox="0 0 204 28" role="img" aria-label="PORTAL: charbelochoa.com">
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="28" viewBox="0 0 196 28" role="img" aria-label="PORTAL: charbelochoa.com">
   <style>
-    .m { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size: 10.8px; }
+    .m { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size: 10.6px; }
   </style>
-  <rect x="0.5" y="0.5" width="203" height="27" rx="3" fill="#161e27" stroke="#2b3846" stroke-width="1"/>
-  <rect x="0.5" y="0.5" width="66" height="27" fill="#1c2630"/>
+  <rect x="0.5" y="0.5" width="195" height="27" rx="3" fill="#161e27" stroke="#2b3846" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="62" height="27" fill="#1c2630"/>
   <rect x="0.5" y="0.5" width="3" height="27" fill="#86a2ff"/>
-  <line x1="66" y1="0.5" x2="66" y2="27.5" stroke="#2b3846" stroke-width="1"/>
-  <text x="12" y="18" class="m" fill="#93a2b1" font-weight="500">PORTAL</text>
-  <text x="76" y="18" class="m" fill="#86a2ff" font-weight="600">charbelochoa.com</text>
+  <line x1="62" y1="0.5" x2="62" y2="27.5" stroke="#2b3846" stroke-width="1"/>
+  <text x="11" y="18" class="m" fill="#93a2b1" font-weight="500">PORTAL</text>
+  <text x="71" y="18" class="m" fill="#86a2ff" font-weight="600">charbelochoa.com</text>
 </svg>

@@ -25,53 +25,42 @@
     @keyframes rotRing { to { transform: rotate(360deg); } }
   </style>
 
-  <!-- Drafting Sheet -->
   <rect x="1" y="1" width="878" height="298" rx="4" fill="#f4f6f8" stroke="#cbd3db" stroke-width="1"/>
   <rect x="2" y="2" width="876" height="296" fill="url(#cadGrid1)" opacity="0.8"/>
 
-  <!-- Top Engineering Title Strip -->
   <rect x="1" y="1" width="878" height="36" fill="#ffffff"/>
   <line x1="1" y1="37" x2="879" y2="37" stroke="#cbd3db" stroke-width="1"/>
   <rect x="1" y="1" width="4" height="36" fill="#2b50d6"/>
   <text x="20" y="23" class="mono" font-size="11" font-weight="600" fill="#17212b">FIG. 01 — MULTIMODAL NEURAL &amp; AGENTIC ARCHITECTURE</text>
   <text x="642" y="23" class="mono" font-size="10.5" fill="#5b6b7a">SCALE: TENSOR // COBALT-SPEC</text>
 
-  <!-- Animated Cobalt Bus Traces Between Blocks -->
   <line class="flow" x1="212" y1="156" x2="236" y2="156" stroke="#2b50d6" stroke-width="2"/>
   <line class="flow" x1="432" y1="156" x2="456" y2="156" stroke="#2b50d6" stroke-width="2"/>
   <line class="flow" x1="652" y1="156" x2="676" y2="156" stroke="#2b50d6" stroke-width="2"/>
 
-  <!-- Backpropagation & Agent Feedback Return Bus -->
   <path class="flow-back" d="M 768 250 L 768 272 L 114 272 L 114 250" fill="none" stroke="#2b50d6" stroke-width="1.4"/>
   <rect x="310" y="263" width="260" height="18" rx="2" fill="#ffffff" stroke="#cbd3db" stroke-width="0.8"/>
   <text x="323" y="275" class="mono" font-size="9.5" fill="#2b50d6">GRADIENT BACKPROP &amp; AGENT MEMORY LOOP</text>
 
-  <!-- ========================================================= -->
-  <!-- MODULE 01: LLMs & SELF-ATTENTION                          -->
-  <!-- ========================================================= -->
   <rect x="18" y="56" width="194" height="194" rx="4" fill="#ffffff" stroke="#cbd3db" stroke-width="1"/>
   <rect x="18" y="56" width="3" height="194" fill="#2b50d6"/>
   <text x="32" y="77" class="mono" font-size="10.5" font-weight="600" fill="#2b50d6">01 // LLMs &amp; ATTENTION</text>
   <text x="32" y="93" class="display" font-size="13" font-weight="700" fill="#17212b">Transformer Blocks</text>
 
-  <!-- 4x4 Cobalt Density Matrix -->
   <rect x="32" y="106" width="166" height="74" rx="3" fill="#e9edf1" stroke="#cbd3db" stroke-width="0.8"/>
   <g transform="translate(40, 114)">
     <rect class="c1" x="0" y="0" width="12" height="12" fill="#2b50d6"/>
     <rect class="c2" x="15" y="0" width="12" height="12" fill="#2b50d6" opacity="0.35"/>
     <rect class="c3" x="30" y="0" width="12" height="12" fill="#2b50d6" opacity="0.7"/>
     <rect x="45" y="0" width="12" height="12" fill="#2b50d6" opacity="0.18"/>
-
     <rect x="0" y="15" width="12" height="12" fill="#2b50d6" opacity="0.25"/>
     <rect class="c2" x="15" y="15" width="12" height="12" fill="#2b50d6"/>
     <rect x="30" y="15" width="12" height="12" fill="#2b50d6" opacity="0.45"/>
     <rect class="c1" x="45" y="15" width="12" height="12" fill="#2b50d6" opacity="0.82"/>
-
     <rect class="c3" x="0" y="30" width="12" height="12" fill="#2b50d6" opacity="0.6"/>
     <rect x="15" y="30" width="12" height="12" fill="#2b50d6" opacity="0.22"/>
     <rect class="c1" x="30" y="30" width="12" height="12" fill="#2b50d6"/>
     <rect class="c2" x="45" y="30" width="12" height="12" fill="#2b50d6" opacity="0.5"/>
-
     <rect x="0" y="45" width="12" height="12" fill="#2b50d6" opacity="0.15"/>
     <rect class="c3" x="15" y="45" width="12" height="12" fill="#2b50d6" opacity="0.72"/>
     <rect x="30" y="45" width="12" height="12" fill="#2b50d6" opacity="0.3"/>
@@ -80,14 +69,10 @@
   <text x="108" y="133" class="mono" font-size="9.5" fill="#17212b" font-weight="600">QK^T / sqrt(d_k)</text>
   <text x="108" y="149" class="mono" font-size="9" fill="#5b6b7a">Positional Enc</text>
   <text x="108" y="164" class="mono" font-size="9" fill="#5b6b7a">LayerNorm + FFN</text>
-
   <text x="32" y="200" class="mono" font-size="9.8" fill="#17212b">- Autoregressive Decoding</text>
   <text x="32" y="216" class="mono" font-size="9.8" fill="#17212b">- Dialogue &amp; Reasoning</text>
   <text x="32" y="236" class="mono" font-size="9.2" fill="#5b6b7a">EN / ES / ZH :: LLMs</text>
 
-  <!-- ========================================================= -->
-  <!-- MODULE 02: COMPUTER VISION                                -->
-  <!-- ========================================================= -->
   <rect x="238" y="56" width="194" height="194" rx="4" fill="#ffffff" stroke="#cbd3db" stroke-width="1"/>
   <rect x="238" y="56" width="3" height="194" fill="#2b50d6"/>
   <text x="252" y="77" class="mono" font-size="10.5" font-weight="600" fill="#2b50d6">02 // COMPUTER VISION</text>
@@ -107,15 +92,11 @@
   </g>
   <text x="351" y="133" class="mono" font-size="9.5" fill="#17212b" font-weight="600">ViT / Conv2D</text>
   <text x="351" y="149" class="mono" font-size="9" fill="#5b6b7a">16x16 Patches</text>
-  <text x="351" y="164" class="mono" font-size="9" fill="#2b50d6">ROI: LOCKED</text>
-
+  <text x="351" y="164" class="mono" font-size="9" fill="#2b50d6">OPTICAL NAV</text>
   <text x="252" y="200" class="mono" font-size="9.8" fill="#17212b">- Feature Extraction</text>
-  <text x="252" y="216" class="mono" font-size="9.8" fill="#17212b">- Real-Time Vision Pipelines</text>
+  <text x="252" y="216" class="mono" font-size="9.8" fill="#17212b">- Terrain &amp; Scene Vision</text>
   <text x="252" y="236" class="mono" font-size="9.2" fill="#5b6b7a">RELEASE :: IN PIPELINE</text>
 
-  <!-- ========================================================= -->
-  <!-- MODULE 03: DEEP LEARNING & OPTIMIZATION                   -->
-  <!-- ========================================================= -->
   <rect x="458" y="56" width="194" height="194" rx="4" fill="#ffffff" stroke="#cbd3db" stroke-width="1"/>
   <rect x="458" y="56" width="3" height="194" fill="#2b50d6"/>
   <text x="472" y="77" class="mono" font-size="10.5" font-weight="600" fill="#2b50d6">03 // DEEP LEARNING</text>
@@ -129,30 +110,24 @@
   <text x="570" y="133" class="mono" font-size="9.5" fill="#17212b" font-weight="600">grad L(theta)</text>
   <text x="570" y="149" class="mono" font-size="9" fill="#5b6b7a">From Scratch</text>
   <text x="570" y="164" class="mono" font-size="9" fill="#5b6b7a">NumPy / CUDA</text>
-
   <text x="472" y="200" class="mono" font-size="9.8" fill="#17212b">- First-Principles Backprop</text>
   <text x="472" y="216" class="mono" font-size="9.8" fill="#17212b">- Statistical &amp; Sequence ML</text>
   <text x="472" y="236" class="mono" font-size="9.2" fill="#5b6b7a">CORE :: MATH + TENSORS</text>
 
-  <!-- ========================================================= -->
-  <!-- MODULE 04: AUTONOMOUS AI AGENTS                           -->
-  <!-- ========================================================= -->
   <rect x="678" y="56" width="184" height="194" rx="4" fill="#ffffff" stroke="#cbd3db" stroke-width="1"/>
   <rect x="678" y="56" width="3" height="194" fill="#2b50d6"/>
   <text x="692" y="77" class="mono" font-size="10.5" font-weight="600" fill="#2b50d6">04 // AI AGENTS</text>
-  <text x="692" y="93" class="display" font-size="13" font-weight="700" fill="#17212b">Cognitive Systems</text>
+  <text x="692" y="93" class="display" font-size="13" font-weight="700" fill="#17212b">Autonomous Control</text>
 
   <rect x="692" y="106" width="156" height="74" rx="3" fill="#e9edf1" stroke="#cbd3db" stroke-width="0.8"/>
-  <circle class="ring" cx="734" cy="158" r="0.1" opacity="0"/>
   <g transform="translate(0, -14)">
     <circle class="ring" cx="734" cy="158" r="19" fill="none" stroke="#2b50d6" stroke-width="1.8" stroke-dasharray="16 7"/>
     <rect x="730" y="154" width="8" height="8" fill="#2b50d6"/>
   </g>
   <text x="766" y="133" class="mono" font-size="9.5" fill="#17212b" font-weight="600">Plan -&gt; Act</text>
   <text x="766" y="149" class="mono" font-size="9" fill="#5b6b7a">C++ Memory</text>
-  <text x="766" y="164" class="mono" font-size="9" fill="#5b6b7a">Tool Dispatch</text>
-
+  <text x="766" y="164" class="mono" font-size="9" fill="#5b6b7a">Flight / Tools</text>
   <text x="692" y="200" class="mono" font-size="9.8" fill="#17212b">- Second-Brain Graphs</text>
-  <text x="692" y="216" class="mono" font-size="9.8" fill="#17212b">- Multi-Turn Execution</text>
+  <text x="692" y="216" class="mono" font-size="9.8" fill="#17212b">- Mission Autonomy</text>
   <text x="692" y="236" class="mono" font-size="9.2" fill="#5b6b7a">RUNTIME :: C++ &amp; TS</text>
 </svg>

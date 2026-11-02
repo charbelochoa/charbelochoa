@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 24" width="100%" role="img" aria-label="SEC. 03 NEURAL ARCHITECTURE &amp; TENSOR PIPELINE">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 24" width="100%" role="img" aria-label="SEC. 03 MULTIMODAL NEURAL &amp; AGENTIC ARCHITECTURE">
   <style>
     .m { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size: 10px; letter-spacing: 0.08em; }
   </style>
   <line x1="0" y1="16" x2="880" y2="16" stroke="#2b3846" stroke-width="1"/>
   <rect x="0" y="13.5" width="64" height="3.5" fill="#86a2ff"/>
-  <text x="74" y="11" class="m" fill="#93a2b1">SEC. 03 // NEURAL ARCHITECTURE &amp; TENSOR PIPELINE</text>
+  <text x="74" y="11" class="m" fill="#93a2b1">SEC. 03 // MULTIMODAL NEURAL &amp; AGENTIC ARCHITECTURE</text>
   <rect x="872" y="13" width="8" height="3" fill="#2b3846"/>
 </svg>

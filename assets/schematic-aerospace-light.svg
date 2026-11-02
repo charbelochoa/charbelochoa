@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 252" width="100%" role="img" aria-label="Figure 02: Cislunar Trans-Lunar Injection Trajectory and Autonomous GNC Architecture">
+  <defs>
+    <pattern id="cadAero" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e9edf1" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; }
+    .tli { stroke-dasharray: 6 5; animation: tliFlow 2.0s linear infinite; }
+    .pulse { animation: beacon 2.2s ease-in-out infinite; }
+    @keyframes tliFlow { to { stroke-dashoffset: -22; } }
+    @keyframes beacon { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  </style>
+
+  <rect x="1" y="1" width="878" height="250" rx="4" fill="#f4f6f8" stroke="#cbd3db" stroke-width="1"/>
+  <rect x="2" y="2" width="876" height="248" fill="url(#cadAero)" opacity="0.8"/>
+
+  <!-- Top Engineering Header -->
+  <rect x="1" y="1" width="878" height="36" fill="#ffffff"/>
+  <line x1="1" y1="37" x2="879" y2="37" stroke="#cbd3db" stroke-width="1"/>
+  <rect x="1" y="1" width="4" height="36" fill="#2b50d6"/>
+  <text x="20" y="23" class="mono" font-size="11" font-weight="600" fill="#17212b">FIG. 02 — CISLUNAR ARTEMIS TRAJECTORY &amp; AI-AUGMENTED FLIGHT CONTROL (GNC)</text>
+  <text x="646" y="23" class="mono" font-size="10.5" fill="#5b6b7a">DISCIPLINE: AEROSPACE + AI</text>
+
+  <!-- LEFT PANEL: CISLUNAR TRANS-LUNAR INJECTION (TLI) ORBITAL DIAGRAM -->
+  <rect x="18" y="52" width="434" height="182" rx="4" fill="#ffffff" stroke="#cbd3db" stroke-width="1"/>
+  <rect x="18" y="52" width="3" height="182" fill="#2b50d6"/>
+  <text x="34" y="73" class="mono" font-size="10.5" font-weight="600" fill="#2b50d6">PLOT A // EARTH-MOON FREE-RETURN &amp; NRHO TRANSFER</text>
+
+  <!-- Earth LEO -->
+  <circle cx="96" cy="152" r="24" fill="#e6ecfc" stroke="#2b50d6" stroke-width="1.6"/>
+  <circle cx="96" cy="152" r="34" fill="none" stroke="#5b6b7a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="79" y="156" class="mono" font-size="9.5" font-weight="600" fill="#17212b">EARTH</text>
+  <text x="62" y="201" class="mono" font-size="9" fill="#5b6b7a">LEO PARKING</text>
+
+  <!-- Moon NRHO -->
+  <circle cx="372" cy="126" r="13" fill="#e9edf1" stroke="#17212b" stroke-width="1.4"/>
+  <ellipse cx="372" cy="134" rx="22" ry="34" fill="none" stroke="#2b50d6" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="357" y="102" class="mono" font-size="9.5" font-weight="600" fill="#17212b">MOON</text>
+  <text x="346" y="182" class="mono" font-size="9" fill="#5b6b7a">NRHO / LOI</text>
+
+  <!-- Figure-8 Cislunar Transfer Arcs -->
+  <path class="tli" d="M 106 184 C 195 196, 290 92, 372 98" fill="none" stroke="#2b50d6" stroke-width="2.1"/>
+  <path d="M 372 158 C 292 178, 188 106, 102 119" fill="none" stroke="#5b6b7a" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <!-- TLI Burn Vector Node & Mid-Course Spacecraft Beacon -->
+  <rect x="103" y="181" width="6" height="6" fill="#2b50d6"/>
+  <circle class="pulse" cx="244" cy="137" r="4.5" fill="#2b50d6"/>
+  <text x="198" y="125" class="mono" font-size="9" fill="#2b50d6" font-weight="600">ORION // TLI COAST</text>
+  <text x="34" y="220" class="mono" font-size="9.2" fill="#5b6b7a">DELTA-V = V_e * ln(m_0 / m_f)   |   SLS BLOCK 1 PROFILE</text>
+
+  <!-- RIGHT PANEL: AI + AEROSPACE CONVERGENCE ARCHITECTURE -->
+  <rect x="468" y="52" width="394" height="182" rx="4" fill="#ffffff" stroke="#cbd3db" stroke-width="1"/>
+  <rect x="468" y="52" width="3" height="182" fill="#2b50d6"/>
+  <text x="484" y="73" class="mono" font-size="10.5" font-weight="600" fill="#2b50d6">SPEC B // AUTONOMOUS FLIGHT &amp; ONBOARD AI COUPLING</text>
+
+  <!-- 3 Stacked Coupled Aerospace-AI Subsystems -->
+  <rect x="484" y="86" width="362" height="38" rx="3" fill="#e9edf1" stroke="#cbd3db" stroke-width="0.8"/>
+  <text x="496" y="102" class="mono" font-size="10" font-weight="600" fill="#17212b">01. Terrain Relative Navigation (Computer Vision)</text>
+  <text x="496" y="116" class="mono" font-size="9" fill="#5b6b7a">Optical crater/hazard mapping &amp; real-time spatial pose estimation</text>
+
+  <rect x="484" y="132" width="362" height="38" rx="3" fill="#e9edf1" stroke="#cbd3db" stroke-width="0.8"/>
+  <text x="496" y="148" class="mono" font-size="10" font-weight="600" fill="#17212b">02. Neural Telemetry &amp; Fault Diagnostics (Deep Learning)</text>
+  <text x="496" y="162" class="mono" font-size="9" fill="#5b6b7a">Propulsion time-series anomaly detection &amp; state-space filtering</text>
+
+  <rect x="484" y="178" width="362" height="38" rx="3" fill="#e6ecfc" stroke="#cbd3db" stroke-width="0.8"/>
+  <text x="496" y="194" class="mono" font-size="10" font-weight="600" fill="#2b50d6">03. Deep-Space Mission Autonomy (C++ AI Agents)</text>
+  <text x="496" y="208" class="mono" font-size="9" fill="#17212b">Zero-latency onboard planning under light-time communication delay</text>
+</svg>

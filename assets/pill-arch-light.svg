@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="208" height="28" viewBox="0 0 208 28" role="img" aria-label="SYSTEM: Arch Linux x86_64">
+<svg xmlns="http://www.w3.org/2000/svg" width="198" height="28" viewBox="0 0 198 28" role="img" aria-label="SYSTEM: Arch Linux x86_64">
   <style>
-    .m { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size: 10.8px; }
+    .m { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size: 10.6px; }
   </style>
-  <rect x="0.5" y="0.5" width="207" height="27" rx="3" fill="#ffffff" stroke="#cbd3db" stroke-width="1"/>
-  <rect x="0.5" y="0.5" width="66" height="27" fill="#e9edf1"/>
+  <rect x="0.5" y="0.5" width="197" height="27" rx="3" fill="#ffffff" stroke="#cbd3db" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="62" height="27" fill="#e9edf1"/>
   <rect x="0.5" y="0.5" width="3" height="27" fill="#2b50d6"/>
-  <line x1="66" y1="0.5" x2="66" y2="27.5" stroke="#cbd3db" stroke-width="1"/>
-  <text x="12" y="18" class="m" fill="#5b6b7a" font-weight="500">SYSTEM</text>
-  <text x="76" y="18" class="m" fill="#2b50d6" font-weight="600">Arch Linux x86_64</text>
+  <line x1="62" y1="0.5" x2="62" y2="27.5" stroke="#cbd3db" stroke-width="1"/>
+  <text x="11" y="18" class="m" fill="#5b6b7a" font-weight="500">SYSTEM</text>
+  <text x="71" y="18" class="m" fill="#2b50d6" font-weight="600">Arch Linux x86_64</text>
 </svg>

@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 24" width="100%" role="img" aria-label="SEC. 05 ACTIVE REPOSITORY INDEX &amp; IMPLEMENTATIONS">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 24" width="100%" role="img" aria-label="SEC. 05 SYSTEMS ENVIRONMENT // ARCH LINUX &amp; COMPUTE STACK">
   <style>
     .m { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size: 10px; letter-spacing: 0.08em; }
   </style>
   <line x1="0" y1="16" x2="880" y2="16" stroke="#cbd3db" stroke-width="1"/>
   <rect x="0" y="13.5" width="64" height="3.5" fill="#2b50d6"/>
-  <text x="74" y="11" class="m" fill="#5b6b7a">SEC. 05 // ACTIVE REPOSITORY INDEX &amp; IMPLEMENTATIONS</text>
+  <text x="74" y="11" class="m" fill="#5b6b7a">SEC. 05 // SYSTEMS ENVIRONMENT // ARCH LINUX &amp; COMPUTE STACK</text>
   <rect x="872" y="13" width="8" height="3" fill="#cbd3db"/>
 </svg>
