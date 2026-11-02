@@ -1,8 +1,8 @@
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/charbelochoa/Orbit">
     <img src="assets/orbit-kali.gif" width="56%" alt="Orbit wearing a black hoodie beside a pixel-art laptop running Kali Linux" />
   </a>
-</p> 
+</p>  -->
 
 <div align="center">
   <a href="https://charbelochoa.com">
