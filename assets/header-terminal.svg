@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 212" width="100%" role="img" aria-label="Charbel Ochoa — AI &amp; Deep Learning Researcher">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="55%" stop-color="#0d1320"/>
+      <stop offset="100%" stop-color="#0a0f1a"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="35%" stop-color="#38bdf8"/>
+      <stop offset="70%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="65%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#151e30" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+    .cursor { animation: blink 1.1s steps(2, start) infinite; }
+    .pulse-dot { animation: pulse 2.2s ease-in-out infinite; }
+    .scanline { animation: scan 6s linear infinite; }
+    .glitch-bar { animation: barShift 4s ease-in-out infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    @keyframes scan { 0% { transform: translateY(0px); } 100% { transform: translateY(170px); } }
+    @keyframes barShift { 0%, 100% { opacity: 0.85; } 50% { opacity: 0.4; } }
+  </style>
+
+  <!-- Outer Terminal Window -->
+  <rect x="2" y="2" width="916" height="208" rx="14" fill="url(#bgGrad)" stroke="#233047" stroke-width="1.5"/>
+  <rect x="3" y="38" width="914" height="170" rx="12" fill="url(#grid)" opacity="0.65"/>
+
+  <!-- Subtle CRT moving scanline -->
+  <rect class="scanline" x="4" y="38" width="912" height="2" fill="#38bdf8" opacity="0.07"/>
+
+  <!-- Window Titlebar -->
+  <path d="M 3 15 Q 3 3 15 3 L 905 3 Q 917 3 917 15 L 917 38 L 3 38 Z" fill="#111827"/>
+  <line x1="3" y1="38" x2="917" y2="38" stroke="#1f2937" stroke-width="1"/>
+  <rect x="3" y="37.5" width="914" height="1.5" fill="url(#accentLine)" opacity="0.85"/>
+
+  <!-- Window Controls -->
+  <circle cx="24" cy="20" r="5.5" fill="#ef4444"/>
+  <circle cx="42" cy="20" r="5.5" fill="#f59e0b"/>
+  <circle cx="60" cy="20" r="5.5" fill="#10b981"/>
+
+  <!-- Terminal Path -->
+  <text x="84" y="24" class="mono" font-size="12" fill="#94a3b8">root@fsociety:~/charbel-ochoa/research-lab — zsh</text>
+
+  <!-- Live Status Pill in Titlebar -->
+  <rect x="706" y="10" width="194" height="20" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <circle class="pulse-dot" cx="720" cy="20" r="4" fill="#10b981"/>
+  <text x="731" y="24" class="mono" font-size="10.5" fill="#34d399" font-weight="600">charbelochoa.com · SOON</text>
+
+  <!-- Mr. Robot Trilingual Greeting Prompt -->
+  <text x="32" y="66" class="mono" font-size="12.5" fill="#ef4444" font-weight="700">$</text>
+  <text x="46" y="66" class="mono" font-size="12.5" fill="#64748b">echo</text>
+  <text x="84" y="66" class="mono" font-size="12.5" fill="#38bdf8">"Hello, friend."</text>
+  <text x="208" y="66" class="mono" font-size="12.5" fill="#475569">//</text>
+  <text x="230" y="66" class="mono" font-size="12.5" fill="#34d399">"Hola, amigo."</text>
+  <text x="342" y="66" class="mono" font-size="12.5" fill="#475569">//</text>
+  <text x="364" y="66" class="sans" font-size="12.5" fill="#c084fc" font-weight="600">"你好，朋友。"</text>
+
+  <!-- Main Glitch-Accented Name Display -->
+  <rect class="glitch-bar" x="32" y="81" width="5" height="42" rx="2" fill="#ef4444"/>
+  <text x="48" y="114" class="mono" font-size="35" font-weight="800" letter-spacing="2" fill="url(#nameGrad)">CHARBEL OCHOA</text>
+  <rect class="cursor" x="378" y="88" width="13" height="28" rx="2" fill="#38bdf8"/>
+
+  <!-- Research Focus Subtitle -->
+  <text x="32" y="145" class="mono" font-size="13.5" fill="#cbd5e1">
+    <tspan fill="#10b981" font-weight="700">&gt;</tspan> AI Research:
+    <tspan fill="#38bdf8" font-weight="600">LLMs</tspan> ·
+    <tspan fill="#f43f5e" font-weight="600">Computer Vision</tspan> ·
+    <tspan fill="#34d399" font-weight="600">AI Agents</tspan> ·
+    <tspan fill="#c084fc" font-weight="600">Deep Learning</tspan> ·
+    <tspan fill="#fb923c" font-weight="600">Machine Learning</tspan>
+  </text>
+
+  <!-- Bottom Telemetry Chips -->
+  <g transform="translate(32, 166)">
+    <rect x="0" y="0" width="182" height="24" rx="6" fill="#111c2d" stroke="#1e3a5f" stroke-width="1"/>
+    <text x="12" y="16" class="mono" font-size="11" fill="#38bdf8">⚡ ARCH: TRANSFORMERS</text>
+
+    <rect x="194" y="0" width="186" height="24" rx="6" fill="#18132a" stroke="#3b2667" stroke-width="1"/>
+    <text x="206" y="16" class="mono" font-size="11" fill="#c084fc">🧠 DL: NEURAL NETS</text>
+
+    <rect x="392" y="0" width="184" height="24" rx="6" fill="#10231f" stroke="#1b4d3e" stroke-width="1"/>
+    <text x="404" y="16" class="mono" font-size="11" fill="#34d399">🤖 AGENTS &amp; VISION</text>
+
+    <rect x="588" y="0" width="268" height="24" rx="6" fill="#221319" stroke="#581c2c" stroke-width="1"/>
+    <text x="600" y="16" class="mono" font-size="11" fill="#fb7185">🌐 EN · ES · 中文  |  fsociety.ai</text>
+  </g>
+</svg>

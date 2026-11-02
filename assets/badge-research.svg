@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="254" height="28" viewBox="0 0 254 28" role="img" aria-label="AI LAB: LLMs · CV · DL · AGENTS">
+  <style>
+    .m { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; font-size: 11px; }
+  </style>
+  <rect x="0.75" y="0.75" width="252.5" height="26.5" rx="6" fill="#0d1320" stroke="#24324a" stroke-width="1.2"/>
+  <path d="M 6.75 0.75 L 76 0.75 L 76 27.25 L 6.75 27.25 Q 0.75 27.25 0.75 21.25 L 0.75 6.75 Q 0.75 0.75 6.75 0.75 Z" fill="#161f33"/>
+  <line x1="76" y1="1" x2="76" y2="27" stroke="#24324a" stroke-width="1"/>
+  <circle cx="13" cy="14" r="3.5" fill="#c084fc"/>
+  <text x="23" y="18" class="m" fill="#cbd5e1" font-weight="600">AI LAB</text>
+  <text x="87" y="18" class="m" fill="#c084fc" font-weight="700">LLMs · CV · DL · AGENTS</text>
+</svg>
