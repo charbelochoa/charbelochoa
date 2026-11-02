@@ -1,17 +1,22 @@
 <p align="center">
   <a href="https://github.com/charbelochoa/Orbit">
-    <img src="assets/orbit-hoodie-space.gif" width="78%" alt="Orbit wearing a black hoodie in outer space surrounded by planets and twinkling stars" />
+    <img src="assets/orbit-kali.gif" width="56%" alt="Orbit wearing a black hoodie beside a pixel-art laptop running Kali Linux" />
   </a>
 </p>
 
 <div align="center">
   <a href="https://charbelochoa.com">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-title-dark.svg" />
-      <img src="assets/ascii-title-light.svg" width="100%" alt="CHARBEL OCHOA — Artificial Intelligence Research and Aerospace Engineering" />
+      <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-halftone-dark.svg" />
+      <img src="assets/ascii-halftone-light.svg" width="100%" alt="CHARBEL OCHOA — Artificial Intelligence Research and Aerospace Engineering" />
     </picture>
   </a>
 </div>
+
+<p align="center">
+  <b>Research in Large Language Models, Computer Vision, Autonomous AI Agents, Deep Learning &amp; Machine Learning — Prospective Aerospace Engineering</b><br />
+  <sub>EN Artificial Intelligence &amp; Aerospace Research &nbsp;//&nbsp; ES Investigacion en IA e Ingenieria Aeroespacial &nbsp;//&nbsp; ZH 人工智能研究与航空航天工程</sub>
+</p>
 
 <p align="center">
   <a href="https://charbelochoa.com"><b>charbelochoa.com</b></a>
@@ -237,7 +242,7 @@ $$
 <summary><b>SYS.ENV // Workstation Architecture &amp; Scientific Computing Toolchain</b></summary>
 <br />
 
-- **Operating System:** Arch Linux x86_64 (rolling release) with zsh and POSIX command-line workflow
+- **Operating System:** Arch Linux & Kali Linux x86_64 with zsh and POSIX command-line workflow
 - **Core Languages:** Python 3, C++20, TypeScript, SQL
 - **Scientific & Deep Learning Stack:** PyTorch, NumPy (first-principles tensor kernels), scikit-learn, pandas, Matplotlib
 - **Vision & Agentic Systems:** OpenCV, Vision Transformers, Multi-Head Attention, Associative C++ Memory Graphs
