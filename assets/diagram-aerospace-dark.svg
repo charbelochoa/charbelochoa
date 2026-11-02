@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 198" width="100%" role="img" aria-label="Figure 02: Cislunar Trans-Lunar Injection Trajectory and Autonomous GNC Architecture">
+  <style>
+    .mono { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; }
+    .tli { stroke-dasharray: 6 5; animation: tliFlow 2.0s linear infinite; }
+    .pulse { animation: beacon 2.2s ease-in-out infinite; }
+    @keyframes tliFlow { to { stroke-dashoffset: -22; } }
+    @keyframes beacon { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  </style>
+
+  <text x="0" y="14" class="mono" font-size="10.5" font-weight="600" fill="#86a2ff">FIG. 02 // CISLUNAR ARTEMIS TRAJECTORY &amp; AI-AUGMENTED FLIGHT CONTROL (GNC)</text>
+  <line x1="0" y1="22" x2="880" y2="22" stroke="#2b3846" stroke-width="1"/>
+  <line x1="444" y1="34" x2="444" y2="188" stroke="#2b3846" stroke-width="1"/>
+
+  <!-- LEFT: PURE LINEWORK EARTH-MOON FREE-RETURN TRAJECTORY -->
+  <text x="4" y="44" class="mono" font-size="10" font-weight="600" fill="#93a2b1">A // EARTH-MOON FREE-RETURN &amp; NRHO TRANSFER</text>
+
+  <circle cx="82" cy="120" r="23" fill="none" stroke="#86a2ff" stroke-width="1.8"/>
+  <circle cx="82" cy="120" r="33" fill="none" stroke="#93a2b1" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="65" y="124" class="mono" font-size="9.5" font-weight="600" fill="#e4e9ee">EARTH</text>
+  <text x="48" y="168" class="mono" font-size="8.8" fill="#93a2b1">LEO PARKING</text>
+
+  <circle cx="372" cy="96" r="13" fill="none" stroke="#e4e9ee" stroke-width="1.5"/>
+  <ellipse cx="372" cy="104" rx="22" ry="34" fill="none" stroke="#86a2ff" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="357" y="72" class="mono" font-size="9.5" font-weight="600" fill="#e4e9ee">MOON</text>
+  <text x="346" y="152" class="mono" font-size="8.8" fill="#93a2b1">NRHO / LOI</text>
+
+  <path class="tli" d="M 92 152 C 185 164, 286 62, 372 68" fill="none" stroke="#86a2ff" stroke-width="2.1"/>
+  <path d="M 372 128 C 288 148, 180 76, 88 87" fill="none" stroke="#93a2b1" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <rect x="89" y="149" width="6" height="6" fill="#86a2ff"/>
+  <circle class="pulse" cx="236" cy="106" r="4.5" fill="#86a2ff"/>
+  <text x="190" y="94" class="mono" font-size="9" fill="#86a2ff" font-weight="600">ORION // TLI COAST</text>
+  <text x="4" y="190" class="mono" font-size="9" fill="#93a2b1">DELTA-V = I_sp * g_0 * ln(m_0 / m_f)   |   SLS BLOCK 1</text>
+
+  <!-- RIGHT: PURE TYPOGRAPHIC + COBALT SPINE SUBSYSTEMS (ZERO GRAY RECTANGLES!) -->
+  <text x="466" y="44" class="mono" font-size="10" font-weight="600" fill="#93a2b1">B // ONBOARD AI &amp; FLIGHT SYSTEMS COUPLING</text>
+
+  <rect x="466" y="60" width="3" height="28" fill="#86a2ff"/>
+  <text x="478" y="71" class="mono" font-size="10.2" font-weight="600" fill="#e4e9ee">01. Terrain Relative Navigation (Computer Vision)</text>
+  <text x="478" y="85" class="mono" font-size="9.2" fill="#93a2b1">Optical crater/hazard mapping &amp; real-time spatial pose estimation</text>
+
+  <rect x="466" y="104" width="3" height="28" fill="#86a2ff"/>
+  <text x="478" y="115" class="mono" font-size="10.2" font-weight="600" fill="#e4e9ee">02. Neural Telemetry &amp; Diagnostics (Deep Learning)</text>
+  <text x="478" y="129" class="mono" font-size="9.2" fill="#93a2b1">Propulsion time-series anomaly detection &amp; state-space filtering</text>
+
+  <rect x="466" y="148" width="3" height="28" fill="#86a2ff"/>
+  <text x="478" y="159" class="mono" font-size="10.2" font-weight="600" fill="#86a2ff">03. Deep-Space Mission Autonomy (C++ AI Agents)</text>
+  <text x="478" y="173" class="mono" font-size="9.2" fill="#93a2b1">Zero-latency onboard planning under light-time communication delay</text>
+</svg>

@@ -2,8 +2,7 @@
   <style>
     .m { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size: 10px; letter-spacing: 0.08em; }
   </style>
-  <line x1="0" y1="16" x2="880" y2="16" stroke="#2b3846" stroke-width="1"/>
-  <rect x="0" y="13.5" width="64" height="3.5" fill="#86a2ff"/>
-  <text x="74" y="11" class="m" fill="#93a2b1">SEC. 02 // RESEARCH DOMAINS &amp; MATHEMATICAL FORMULATIONS</text>
-  <rect x="872" y="13" width="8" height="3" fill="#2b3846"/>
+  <line x1="0" y1="16" x2="880" y2="16" stroke="#cbd3db" stroke-width="1"/>
+  <rect x="0" y="13.5" width="64" height="3.5" fill="#2b50d6"/>
+  <text x="74" y="11" class="m" fill="#5b6b7a">SEC. 02 // RESEARCH DOMAINS &amp; MATHEMATICAL FORMULATIONS</text>
 </svg>
