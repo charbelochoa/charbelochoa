@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="28" viewBox="0 0 224 28" role="img" aria-label="DOMAINS: LLMs / CV / DL / ML">
+  <style>
+    .m { font-family: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; font-size: 10.8px; }
+  </style>
+  <rect x="0.5" y="0.5" width="223" height="27" rx="3" fill="#161e27" stroke="#2b3846" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="72" height="27" fill="#1c2630"/>
+  <rect x="0.5" y="0.5" width="3" height="27" fill="#86a2ff"/>
+  <line x1="72" y1="0.5" x2="72" y2="27.5" stroke="#2b3846" stroke-width="1"/>
+  <text x="12" y="18" class="m" fill="#93a2b1" font-weight="500">DOMAINS</text>
+  <text x="82" y="18" class="m" fill="#86a2ff" font-weight="600">LLMs / CV / DL / ML</text>
+</svg>
