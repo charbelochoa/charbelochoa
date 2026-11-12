@@ -1,0 +1,5 @@
+02
+
+La respuesta anterior cambia el alfabeto.
+Deshaz tres rieles.
+Los bytes recuerdan el orden.

@@ -1,0 +1,6 @@
+00
+
+79 67 72 79 65
+
+El espejo precede a los bytes.
+64 antes de XOR.

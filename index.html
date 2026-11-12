@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030303">
+  <meta name="description" content="Charbel Ochoa. Código, fragmentos y señales.">
+  <title>Charbel Ochoa</title>
+  <link rel="icon" type="image/svg+xml" href="assets/identity/mark.svg">
+  <link rel="stylesheet" href="readme.css">
+  <script src="signals/challenges.js" defer></script>
+  <script src="site.js" defer></script>
+  <noscript><style>.portrait-switch,.signal-trigger{display:none}</style></noscript>
+</head>
+<body class="sanctum">
+  <!-- 00 / La figura no es el mensaje. / signals/00.txt -->
+  <h1 class="sr-only">Charbel Ochoa</h1>
+  <header class="frame-top"><a class="wordmark" href="./" aria-label="Charbel Ochoa, inicio">C / O</a><a class="quiet-link" href="archive.html">Archivo <span class="archive-count" aria-label="Entradas publicadas">00</span></a></header>
+  <main class="presence" aria-label="Identidad de Charbel Ochoa">
+    <figure class="apparition">
+      <img id="portrait" src="assets/identity/front.svg" width="650" height="780" alt="Figura ASCII de una máscara negra geométrica bajo una gorra y capucha, apenas visible en la oscuridad" fetchpriority="high">
+      <figcaption class="portrait-switch" role="group" aria-label="Variantes del retrato">
+        <button type="button" data-portrait="front" class="selected" aria-pressed="true" aria-label="Retrato frontal"><span></span></button>
+        <button type="button" data-portrait="profile" aria-pressed="false" aria-label="Retrato de tres cuartos"><span></span></button>
+        <button type="button" data-portrait="signal" aria-pressed="false" aria-label="Detalle de la máscara"><span></span></button>
+      </figcaption>
+    </figure>
+  </main>
+  <footer class="frame-bottom">
+    <a class="quiet-link github-link" href="https://github.com/charbelochoa" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    <button id="signal-trigger" class="signal-trigger" type="button" aria-label="Abrir señal oculta">∴</button>
+    <nav class="repository-links" aria-label="Repositorios destacados"><a href="https://github.com/charbelochoa/Node-Panda" target="_blank" rel="noopener noreferrer">Node-Panda</a><a href="https://github.com/charbelochoa/Clients-Model" target="_blank" rel="noopener noreferrer">Clients-Model</a><a href="https://github.com/charbelochoa/Orbit" target="_blank" rel="noopener noreferrer">Orbit</a></nav>
+  </footer>
+  <dialog id="signal-dialog" aria-labelledby="signal-stage">
+    <div class="dialog-top"><h2 id="signal-stage">00</h2><div class="dialog-actions"><button type="button" id="signal-reset" aria-label="Reiniciar los acertijos" hidden>↺</button><button type="button" id="signal-close" aria-label="Cerrar señal">×</button></div></div>
+    <pre id="signal-cipher"></pre>
+    <form id="signal-form" autocomplete="off"><label class="sr-only" for="signal-answer">Respuesta al acertijo</label><div class="answer-line"><input id="signal-answer" name="answer" spellcheck="false" autocapitalize="off" maxlength="160" required><button type="submit" aria-label="Comprobar respuesta">↵</button></div></form>
+    <p id="signal-status" role="status" aria-live="polite"></p>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "charbel-obsidian",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "marked": "18.2.0"
+  }
+}

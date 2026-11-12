@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# 00 / La llave nunca fue un numero.
+# /signals/00.txt
+# 01 / El archivo conserva lo que el indice calla.
+# /archive.html
+# 02 / Tres caminos atraviesan los mismos bytes.
+# /signals/02.txt
