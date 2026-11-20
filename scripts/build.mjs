@@ -1,6 +1,7 @@
 import { readFile, writeFile, readdir, mkdir, cp, rm } from 'node:fs/promises';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildWiki } from './wiki.mjs';
 import { marked } from 'marked';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -24,7 +25,7 @@ function parsePost(source, file) {
   const meta = {};
   for (const line of match[1].split(/\r?\n/)) {
     if (!line.trim() || line.trim().startsWith('#')) continue;
-    const part = line.match(/^(title|date|slug|draft):\s*(.*?)\s*$/);
+    const part = line.match(/^(title|description|date|slug|draft):\s*(.*?)\s*$/);
     if (!part) throw new Error(`${file}: unsupported metadata ${line}`);
     meta[part[1]] = part[2].replace(/^(["'])(.*)\1$/, '$2');
   }
@@ -50,7 +51,7 @@ if (new Set(posts.map(p=>p.slug)).size !== posts.length) throw new Error('Duplic
 if (dirname(out) !== root || !out.endsWith('dist')) throw new Error('Invalid build output');
 await rm(out,{recursive:true,force:true});
 await mkdir(out,{recursive:true});
-for (const name of ['readme.css','site.js','.nojekyll']) await cp(join(root,name),join(out,name));
+for (const name of ['favicon.ico','favicon.png','readme.css','site.js','.nojekyll']) await cp(join(root,name),join(out,name));
 for (const name of ['identity','fonts']) await cp(join(root,'assets',name),join(out,'assets',name),{recursive:true});
 try { await cp(join(root,'assets','uploads'),join(out,'assets','uploads'),{recursive:true}); } catch (error) { if (error.code !== 'ENOENT') throw error; }
 await cp(join(root,'signals'),join(out,'signals'),{recursive:true});
@@ -69,4 +70,5 @@ for (const post of posts) {
   const page=`<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#030303"><title>${escape(post.title)} — Charbel Ochoa</title><link rel="icon" href="../assets/identity/mark.svg"><link rel="stylesheet" href="../readme.css"></head><body class="archive-page"><header class="frame-top"><a class="wordmark" href="../archive.html" aria-label="Volver al archivo">←</a><a class="quiet-link" href="../" aria-label="Inicio de Charbel Ochoa">C / O</a></header><main class="archive-main"><article><p class="post-meta"><time datetime="${post.date}">${post.date}</time></p><h1 class="post-title">${escape(post.title)}</h1><div class="post-content">${post.content}</div></article></main></body></html>`;
   await writeFile(join(out,'posts',`${post.slug}.html`),page);
 }
+await buildWiki({root,out,posts,origin:'https://charbelochoa.com',renderMarkdown: source => marked.parse(source)});
 console.log(`Built dist/ — ${posts.length} published posts. Drafts and owner notes excluded.`);

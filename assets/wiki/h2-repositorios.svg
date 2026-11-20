@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="46" viewBox="0 0 760 46" role="img" aria-label="Repositorios">
+  <rect width="760" height="46" fill="#000000"/>
+  <text x="10" y="31" fill="#eaecf0" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="400">Repositorios</text>
+  <line x1="10" y1="40.5" x2="750" y2="40.5" stroke="#27292d" stroke-width="1"/>
+</svg>

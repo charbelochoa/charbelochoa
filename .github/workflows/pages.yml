@@ -5,7 +5,11 @@ on:
     branches: [main]
     paths:
       - 'content/posts/**'
+      - 'content/wiki/**'
+      - 'wiki/**'
+      - 'scripts/wiki.mjs'
       - 'assets/identity/**'
+      - 'assets/wiki/**'
       - 'assets/fonts/**'
       - 'assets/uploads/**'
       - 'signals/**'
@@ -13,6 +17,8 @@ on:
       - 'archive.html'
       - 'readme.css'
       - 'site.js'
+      - 'favicon.ico'
+      - 'favicon.png'
       - 'robots.txt'
       - 'scripts/build.mjs'
       - 'package*.json'

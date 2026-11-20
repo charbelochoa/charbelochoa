@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="52" viewBox="0 0 1080 52" role="img" aria-label="Pavarotti Wiki — Pie de página">
+  <rect width="1080" height="52" fill="#101418"/>
+  <line x1="0" y1="0.5" x2="1080" y2="0.5" stroke="#27292d" stroke-width="1"/>
+  <text x="34" y="31" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#6b9eff">
+    <tspan font-weight="bold">Pavarotti Wiki</tspan>
+    <tspan dx="24" font-weight="normal">Acceso del autor</tspan>
+    <tspan dx="24" font-weight="normal">Pavarotti</tspan>
+  </text>
+</svg>

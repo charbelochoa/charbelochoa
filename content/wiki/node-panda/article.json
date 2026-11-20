@@ -1,0 +1,8 @@
+{
+  "title": "Node-Panda",
+  "summary": "Sistema de memoria asociativa en C++ para agentes y modelos de lenguaje.",
+  "category": "proyecto",
+  "url": "https://github.com/charbelochoa/Node-Panda",
+  "body": "Node-Panda es un proyecto de Charbel Ochoa escrito en C++. Su objetivo es proporcionar memoria asociativa a agentes y modelos de lenguaje.\n\n## Investigación relacionada\n\nEl artículo [Grafos de memoria asociativa en C++20](/wiki/dsp-003/) describe la implementación y su relación con Orbit.",
+  "updated": "2026-11-17"
+}

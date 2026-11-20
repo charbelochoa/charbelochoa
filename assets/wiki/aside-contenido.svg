@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="38" viewBox="0 0 240 38" role="img" aria-label="Contenido">
+  <rect width="240" height="38" fill="#101418"/>
+  <text x="12" y="23" fill="#eaecf0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold">Contenido</text>
+  <line x1="12" y1="31.5" x2="228" y2="31.5" stroke="#27292d" stroke-width="1"/>
+</svg>
